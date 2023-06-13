@@ -1,0 +1,3 @@
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\obj\Debug\netstandard2.0\Linked Lists.csprojAssemblyReference.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\obj\Debug\netstandard2.0\Linked Lists.AssemblyInfoInputs.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\obj\Debug\netstandard2.0\Linked Lists.AssemblyInfo.cs

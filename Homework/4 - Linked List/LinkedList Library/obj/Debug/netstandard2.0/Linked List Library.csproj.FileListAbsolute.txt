@@ -1,0 +1,7 @@
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\bin\Debug\netstandard2.0\Linked List Library.deps.json
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\bin\Debug\netstandard2.0\Linked List Library.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\bin\Debug\netstandard2.0\Linked List Library.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\obj\Debug\netstandard2.0\Linked List Library.AssemblyInfoInputs.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\obj\Debug\netstandard2.0\Linked List Library.AssemblyInfo.cs
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\obj\Debug\netstandard2.0\Linked List Library.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\LinkedList Library\obj\Debug\netstandard2.0\Linked List Library.pdb

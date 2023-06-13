@@ -1,0 +1,9 @@
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\obj\Debug\CounterDriver.csprojAssemblyReference.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\bin\Debug\Counter.exe.config
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\bin\Debug\Counter.exe
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\bin\Debug\Counter.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\obj\Debug\CounterDriver.csproj.CopyComplete
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\obj\Debug\Counter.exe
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\obj\Debug\Counter.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\bin\Debug\CounterClass.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\Counter\bin\Debug\CounterClass.pdb

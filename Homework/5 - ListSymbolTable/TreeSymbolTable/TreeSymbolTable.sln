@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSymbolTableDriver", "TreeSymbolTableDriver\TreeSymbolTableDriver.csproj", "{19AC1374-512A-4BB2-9F62-B47EEEFA81AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTreeClass", "SymbolTableClass\BinarySearchTreeClass.csproj", "{E216D0E6-9559-49FC-AC21-76F7D8F91F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19AC1374-512A-4BB2-9F62-B47EEEFA81AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AC1374-512A-4BB2-9F62-B47EEEFA81AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AC1374-512A-4BB2-9F62-B47EEEFA81AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AC1374-512A-4BB2-9F62-B47EEEFA81AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E216D0E6-9559-49FC-AC21-76F7D8F91F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E216D0E6-9559-49FC-AC21-76F7D8F91F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E216D0E6-9559-49FC-AC21-76F7D8F91F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E216D0E6-9559-49FC-AC21-76F7D8F91F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6140E1B0-DD87-4224-9093-F61D2D74306B}
+	EndGlobalSection
+EndGlobal

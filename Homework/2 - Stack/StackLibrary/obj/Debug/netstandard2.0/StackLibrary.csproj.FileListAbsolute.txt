@@ -1,0 +1,8 @@
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\bin\Debug\netstandard2.0\StackLibrary.deps.json
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\bin\Debug\netstandard2.0\StackLibrary.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\bin\Debug\netstandard2.0\StackLibrary.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\obj\Debug\netstandard2.0\StackLibrary.csprojAssemblyReference.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\obj\Debug\netstandard2.0\StackLibrary.AssemblyInfoInputs.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\obj\Debug\netstandard2.0\StackLibrary.AssemblyInfo.cs
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\obj\Debug\netstandard2.0\StackLibrary.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\StackLibrary\obj\Debug\netstandard2.0\StackLibrary.pdb

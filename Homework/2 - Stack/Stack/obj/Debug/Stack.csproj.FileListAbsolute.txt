@@ -1,0 +1,9 @@
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\bin\Debug\Stack.exe.config
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\bin\Debug\Stack.exe
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\bin\Debug\Stack.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\bin\Debug\StackLibrary.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\bin\Debug\StackLibrary.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\obj\Debug\Stack.csprojAssemblyReference.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\obj\Debug\Stack.csproj.CopyComplete
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\obj\Debug\Stack.exe
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\2\Stack\obj\Debug\Stack.pdb

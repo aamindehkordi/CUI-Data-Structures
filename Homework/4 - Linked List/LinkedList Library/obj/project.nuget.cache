@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kYzryAggWYbZ2S37YEZfNVRvNEM0/BYc85Oi7RZlW5PjGZ8kLpKwC1XLA7qbN+9FxyW/M/appRsC0IJYxtaBWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aamin\\OneDrive\\Desktop\\Other\\Coding\\Data Structures\\Homework\\4 - Linked List\\LinkedList Library\\LinkedListLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aamin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aamin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\bin\Debug\Queues.exe.config
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\bin\Debug\Queues.exe
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\bin\Debug\Queues.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\bin\Debug\Queue.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\bin\Debug\Queue.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\obj\Debug\Queues.csprojAssemblyReference.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\obj\Debug\Queues.csproj.CopyComplete
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\obj\Debug\Queues.exe
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queues\obj\Debug\Queues.pdb

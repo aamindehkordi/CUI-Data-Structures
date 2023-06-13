@@ -1,0 +1,7 @@
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\CircleLibrary\bin\Debug\netstandard2.0\CircleLibrary.deps.json
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\CircleLibrary\bin\Debug\netstandard2.0\CircleLibrary.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\CircleLibrary\bin\Debug\netstandard2.0\CircleLibrary.pdb
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\CircleLibrary\obj\Debug\netstandard2.0\CircleLibrary.AssemblyInfoInputs.cache
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\CircleLibrary\obj\Debug\netstandard2.0\CircleLibrary.AssemblyInfo.cs
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\CircleLibrary\obj\Debug\netstandard2.0\CircleLibrary.dll
+C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\CircleLibrary\obj\Debug\netstandard2.0\CircleLibrary.pdb
