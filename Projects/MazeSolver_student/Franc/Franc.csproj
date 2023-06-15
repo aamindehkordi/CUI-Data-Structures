@@ -1,24 +1,21 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\MazeAgent\MazeAgent.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Reference Include="LinkedListLibrary">
       <HintPath>..\MazeSolver\bin\Debug\LinkedListLibrary.dll</HintPath>
     </Reference>
+    <Content Include="Franc.cs" />
   </ItemGroup>
-
 </Project>
