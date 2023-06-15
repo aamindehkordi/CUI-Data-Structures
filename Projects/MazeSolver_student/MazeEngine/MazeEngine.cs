@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-
+/* Professor Tallman's Code */
 namespace MazeSolver
 {
     public class MazeEngine
@@ -57,7 +57,7 @@ namespace MazeSolver
         public MazeEngine(int width, int height, bool loops = false, bool show = true)
         {
             Initialize();
-            this.maze = GenerateRandomMaze(width, height, loops, show); 
+            this.maze = GenerateRandomMaze(width, height, loops, show);
             this.width = width;
             this.height = height;
             this.validMazeLoaded = SetStartAndFinish();
@@ -424,9 +424,9 @@ namespace MazeSolver
         {
             MazeSweep view = new MazeSweep();
             if (x > 0) view.WestView = maze[x - 1, y];
-            if (x < width-1) view.EastView = maze[x + 1, y];
+            if (x < width - 1) view.EastView = maze[x + 1, y];
             if (y > 0) view.NorthView = maze[x, y - 1];
-            if (y < height-1) view.SouthView = maze[x, y + 1];
+            if (y < height - 1) view.SouthView = maze[x, y + 1];
 
             return view;
         }
