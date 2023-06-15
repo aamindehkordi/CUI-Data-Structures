@@ -10,6 +10,7 @@ namespace LinkedListDriver
     {
         static void Main(string[] args)
         {
+            // Print multiplication table
             int N = 9;
             Console.Write("  |");
             for (int i = 1; i <= N; i++)
@@ -27,10 +28,7 @@ namespace LinkedListDriver
                 Console.WriteLine();
             }
 
-
-
-
-
+            // Sort array
             int[] arr = new int[10];
             for (int i = 0; i < arr.Length; i++) { arr[i] = i; }
             arr[1] = 90; arr[6] = 4; arr[arr.Length - 1] = 6;
@@ -40,29 +38,27 @@ namespace LinkedListDriver
             {
                 for (int j = i + 1; j < arr.Length; j++)
                 {
-                    if (arr[i] > arr[j]) { temp = arr[i]; arr[i] = arr[j]; arr[j] = arr[i]; arr[j] = temp; }
+                    // Swap elements if they are out of order
+                    if (arr[i] > arr[j])
+                    {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
                 }
             }
             ///////////////////////////////////////
+
+            // Compare array elements
             int i, j;
             i = 0; j = 1;
             if (arr.Length < 1) { return false; }
             while (arr[i].CompareTo(arr[j]) == -1)
             {
-                i++; j++;
+                i++;
+                j++;
+                if (j >= arr.Length) { break; }
             }
-            if (i != arr.Length - 1) { return false; }
-            return true;
-            ///////////////////////////////////////
-            Node<K, V> curr = root;
-            while (curr != null)
-            {
-                int comp = element.CompareTo(curr.key);
-                if (comp == 0) { return curr.Val; }
-                if (comp < 0) { curr = curr.L; }
-                if (comp > 0) { curr = curr.R; }
-            }
-            return 0.0;
         }
     }
 }

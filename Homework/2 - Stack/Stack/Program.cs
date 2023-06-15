@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 using StackLibrary;
 
 namespace StackDriver
@@ -10,68 +8,75 @@ namespace StackDriver
     {
         static void Main(string[] args)
         {
-            Stack<int> myStack32 = new Stack<int>(32);
-            Stack<string> myStack = new Stack<string>();//should be 64
+            // Create two instances of the Stack class
+            var intStack = new Stack<int>(32);
+            var stringStack = new Stack<string>();
 
-            myStack32.Push(1);//idk why but peak is returning a 0 instead of a 1 here
-            Console.WriteLine($"{myStack32.Peak()}");
-            myStack32.Clear();
+            // Push an element to intStack and print the top element
+            intStack.Push(1);
+            Console.WriteLine($"{intStack.Peek()}");
 
-            Console.WriteLine($"{myStack.IsEmpty()}");
-            Console.WriteLine($"{myStack32.IsEmpty()}");
+            // Clear intStack
+            intStack.Clear();
 
-            for(int i = 0; i<32; i++)
-            {
-                if(i%10 == 0 || i == 0)
-                {
-                    Console.WriteLine($"{myStack.Count}");
-                    Console.WriteLine($"{myStack32.Count}");
-                }
-                
-                myStack32.Push(i);
-                if(i%2 == 0)
-                {
-                    myStack.Push($"hi {i}");
-                }
-                else
-                {
-                    myStack.Push("nothing to see here");
-                }
-                
-            }
+            // Check if the stacks are empty
+            Console.WriteLine($"{stringStack.IsEmpty()}");
+            Console.WriteLine($"{intStack.IsEmpty()}");
 
-            Console.WriteLine($"{myStack.IsEmpty()}");
-            Console.WriteLine($"{myStack32.IsEmpty()}");
-
-            //<-----Breakpoint here
-
+            // Push elements to the stacks
             for (int i = 0; i < 32; i++)
             {
+                // Print the count of elements in the stacks every 10 iterations
                 if (i % 10 == 0 || i == 0)
                 {
-                    Console.WriteLine($"{myStack.Count}");
-                    Console.WriteLine($"{myStack32.Count}");
+                    Console.WriteLine($"{stringStack.Count}");
+                    Console.WriteLine($"{intStack.Count}");
                 }
 
-                myStack32.Pop();
+                // Push elements to the stacks
+                intStack.Push(i);
                 if (i % 2 == 0)
                 {
-                    Console.WriteLine($"{myStack.Pop()}");
+                    stringStack.Push($"hi {i}");
                 }
                 else
                 {
-                    Console.WriteLine($"{myStack.Pop()}");
+                    stringStack.Push("nothing to see here");
                 }
-
             }
 
-            Console.WriteLine($"{myStack.IsEmpty()}");
-            Console.WriteLine($"{myStack32.IsEmpty()}");
+            // Check if the stacks are empty
+            Console.WriteLine($"{stringStack.IsEmpty()}");
+            Console.WriteLine($"{intStack.IsEmpty()}");
 
-             string[] myArr = myStack.ToArray();
+            // Pop elements from the stacks
+            foreach (var item in intStack)
+            {
+                // Print the count of elements in the stacks every 10 iterations
+                if (item % 10 == 0 || item == 0)
+                {
+                    Console.WriteLine($"{stringStack.Count}");
+                    Console.WriteLine($"{intStack.Count}");
+                }
 
+                // Pop elements from the stacks and print them
+                intStack.Pop();
+                if (item % 2 == 0)
+                {
+                    Console.WriteLine($"{stringStack.Pop()}");
+                }
+                else
+                {
+                    Console.WriteLine($"{stringStack.Pop()}");
+                }
+            }
 
+            // Check if the stacks are empty
+            Console.WriteLine($"{stringStack.IsEmpty()}");
+            Console.WriteLine($"{intStack.IsEmpty()}");
 
+            // Convert stringStack to an array
+            string[] myArr = stringStack.ToArray();
         }
     }
 }
