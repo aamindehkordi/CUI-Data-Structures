@@ -4,40 +4,49 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using SymbolTableLibrary;
 
+// This class represents a counter that keeps track of the number of words and their frequency.
 public class Counter
 {
-    public int WordCount;
-    public double Frequency;
+    public int WordCount; // The number of times the word appears.
+    public double Frequency; // The frequency of the word.
 
+    // Constructor for the Counter class.
     public Counter(int wordCount = 0, double frequency = 0)
     {
         this.WordCount = wordCount;
         this.Frequency = frequency;
     }
 
+    // Returns a string representation of the Counter object.
     public override string ToString()
     {
         return $"{WordCount}/{Frequency:N2}";
     }
 }
 
+// This class represents a word counter that keeps track of the word and its Counter object.
 public class WordCounter
 {
-    public string Word;
-    public Counter Stats;
+    public string Word; // The word being counted.
+    public Counter Stats; // The Counter object for the word.
 
+    // Constructor for the WordCounter class.
     public WordCounter(string word)
     {
         this.Word = word;
         this.Stats = new Counter();
     }
 
+    // Returns a string representation of the WordCounter object.
     public override string ToString()
     {
         return $"{Word}: {Stats}";
     }
 }
 
+/// <summary> 
+/// This class reads in a text file and counts the number of times each word appears.
+/// </summary>
 class WordCountReader
 {
     public enum AdtType
@@ -76,6 +85,11 @@ class WordCountReader
     public long LoadTime { get { return timerSymbolTable.ElapsedMilliseconds; } }
     public long SortTime { get { return timerSortingCode.ElapsedMilliseconds; } }
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="WordCountReader"/> class.
+    /// </summary>
+    /// <param name="file">The file to read.</param>
+    /// <param name="type">The type of symbol table to use.</param>
     public WordCountReader(string file, AdtType type = AdtType.TreeAdt)
     {
         // Create the master word list for this document depending on which
@@ -112,9 +126,10 @@ class WordCountReader
 
         }
         foreach (string word in mWL)
-        {////////////////////////////////////////////////////////////////////////////
+        {
+            // Calculate the frequency of each word in the document
             mWL[word].Frequency = (100.0 * mWL[word].WordCount) / documentWordCount;
-        }////////////////////////////////////////////////////////////////////////////
+        }
         timerSymbolTable.Stop();
     }
 
@@ -148,42 +163,84 @@ class WordCountReader
         /*WordCounter[] words = wordd.ToArray();
         MergeSort(words, 0, words.Length - 1);*/
     }
+
+    /// <summary>
+    /// Sorts an array of WordCounter objects using the Merge Sort algorithm.
+    /// </summary>
+    /// <param name="words">The array of WordCounter objects to sort.</param>
+    /// <param name="A">The starting index of the array to sort.</param>
+    /// <param name="B">The ending index of the array to sort.</param>
     private void MergeSort(WordCounter[] words, int A, int B)
     {
+        // Get the number of elements to sort.
         int count = B - A + 1;
+
+        // If there is only one element, it is already sorted.
         if (count <= 1)
         {
             return;
         }
 
+        // Calculate the middle index.
         int M = A + (B - A) / 2;
 
+        // Recursively sort the left and right halves of the array.
         MergeSort(words, A, M);
         MergeSort(words, M + 1, B);
 
+        // Merge the sorted halves of the array.
         MergeLists(words, A, M, B);
     }
+
+    /// <summary>
+    /// Merges two sorted subarrays of WordCounter objects into a single sorted array.
+    /// </summary>
+    /// <param name="words">The array of WordCounter objects to merge.</param>
+    /// <param name="A">The starting index of the first subarray.</param>
+    /// <param name="M">The ending index of the first subarray.</param>
+    /// <param name="B">The ending index of the second subarray.</param>
     private void MergeLists(WordCounter[] words, int A, int M, int B)
     {
+        // Create a temporary array to hold the merged subarrays.
         List<WordCounter> tArr = new List<WordCounter>(B - A + 1);
+
+        // Initialize the indices for the left and right subarrays.
         int L = A;
         int R = M + 1;
+
+        // Initialize the index for the temporary array.
         int T = 0;
 
+        // Merge the left and right subarrays into the temporary array.
         while (L <= M && R <= B)
         {
             if (words[L].Stats.WordCount < words[R].Stats.WordCount)
             {
                 tArr[T++] = words[L++];
             }
-            else { tArr[T++] = words[R++]; }
+            else
+            {
+                tArr[T++] = words[R++];
+            }
         }
 
-        for (int i = 0; i <= T; i++)
+        // Copy any remaining elements from the left subarray to the temporary array.
+        while (L <= M)
         {
-            Console.Write(tArr[i]);
+            tArr[T++] = words[L++];
         }
-        Console.WriteLine();
+
+        // Copy any remaining elements from the right subarray to the temporary array.
+        while (R <= B)
+        {
+            tArr[T++] = words[R++];
+        }
+
+        // Copy the sorted elements from the temporary array back to the original array.
+        for (int i = 0; i < T; i++)
+        {
+            words[A + i] = tArr[i];
+        }
     }
 
     /// <summary>
@@ -262,64 +319,87 @@ class WordCountReader
         }
     }
 
+    /// <summary>
+    /// Dumps the top n words to the console, based on the specified rank type.
+    /// </summary>
+    /// <param name="n">The number of words to dump.</param>
+    /// <param name="type">The rank type to use.</param>
     private void DumpTopWords(int n = 100, RankType type = RankType.RankNormalized)
     {
-        if (filteredWordList.Count > 0)
+        if (filteredWordList.Count > 0) // Check if there are any words to dump
         {
-            int endIdx = Math.Min(n, filteredWordList.Count);
-            string format = WordRankFormatString(type, filteredWordList[0]);
-            for (int rank = 0; rank < endIdx; rank++)
+            int endIdx = Math.Min(n, filteredWordList.Count); // Calculate the end index
+            string format = WordRankFormatString(type, filteredWordList[0]); // Get the format string
+            for (int rank = 0; rank < endIdx; rank++) // Loop through the words
             {
-                Console.WriteLine(WordRankString(type, format, filteredWordList[rank]));
+                Console.WriteLine(WordRankString(type, format, filteredWordList[rank])); // Write the word to the console
             }
         }
     }
 
+    /// <summary>
+    /// Dumps the bottom n words to the console, based on the specified rank type.
+    /// </summary>
+    /// <param name="n">The number of words to dump.</param>
+    /// <param name="type">The rank type to use.</param>
     private void DumpLowWords(int n = 100, RankType type = RankType.RankNormalized)
     {
-        if (filteredWordList.Count > 0)
+        if (filteredWordList.Count > 0) // Check if there are any words to dump
         {
-            int startIdx = Math.Max(0, filteredWordList.Count - n);
-            string format = WordRankFormatString(type, filteredWordList[startIdx]);
-            for (int rank = startIdx; rank < filteredWordList.Count; rank++)
+            int startIdx = Math.Max(0, filteredWordList.Count - n); // Calculate the start index
+            string format = WordRankFormatString(type, filteredWordList[startIdx]); // Get the format string
+            for (int rank = startIdx; rank < filteredWordList.Count; rank++) // Loop through the words
             {
-                Console.WriteLine(WordRankString(type, format, filteredWordList[rank]));
+                Console.WriteLine(WordRankString(type, format, filteredWordList[rank])); // Write the word to the console
             }
         }
     }
 
+    /// <summary>
+    /// Returns the format string for a word rank, based on the specified rank type and sample word.
+    /// </summary>
+    /// <param name="type">The rank type to use.</param>
+    /// <param name="sample">The sample word to use.</param>
+    /// <returns>The format string for a word rank.</returns>
     private string WordRankFormatString(RankType type, WordCounter sample)
     {
         int maxWidth;
         string format;
         if (type == RankType.RankNormalized)
         {
-            maxWidth = $"{(100.0 * sample.Stats.Frequency / documentWordCount):N2}".Length;
-            format = "{0," + maxWidth + ":N2} {1}";
+            maxWidth = $"{(100.0 * sample.Stats.Frequency / documentWordCount):N2}".Length; // Calculate the maximum width of the rank
+            format = "{0," + maxWidth + ":N2} {1}"; // Set the format string
         }
         else
         {
-            maxWidth = sample.Stats.WordCount.ToString().Length;
-            format = "{0," + maxWidth + "} {1}";
+            maxWidth = sample.Stats.WordCount.ToString().Length; // Calculate the maximum width of the rank
+            format = "{0," + maxWidth + "} {1}"; // Set the format string
         }
 
         return format;
     }
 
+    /// <summary>
+    /// Returns the word rank string, based on the specified rank type, format string, and sample word.
+    /// </summary>
+    /// <param name="type">The rank type to use.</param>
+    /// <param name="format">The format string to use.</param>
+    /// <param name="sample">The sample word to use.</param>
+    /// <returns>The word rank string.</returns>
     private string WordRankString(RankType type, string format, WordCounter sample)
     {
         double weight;
 
         if (type == RankType.RankNormalized)
         {
-            weight = 100.0 * sample.Stats.Frequency / documentWordCount;
+            weight = 100.0 * sample.Stats.Frequency / documentWordCount; // Calculate the rank weight
         }
         else
         {
-            weight = sample.Stats.WordCount;
+            weight = sample.Stats.WordCount; // Get the rank weight
         }
 
-        return string.Format(format, weight, sample.Word);
+        return string.Format(format, weight, sample.Word); // Format the rank string
     }
 }
 
@@ -349,11 +429,15 @@ class Program
         Console.WriteLine($"  -v: verbose output");
     }
 
+    /// <summary>
+    /// The entry point of the program.
+    /// </summary>
+    /// <param name="args">The command line arguments.</param>
     static void Main(string[] args)
     {
         /* Error check the command line arguments */
 
-        if (args.Length < 2)
+        if (args.Length < 2) // Check if there are enough arguments
         {
             Console.WriteLine($"Error:  Not enough arguments specified");
             WriteUsageStatement();
@@ -362,7 +446,7 @@ class Program
         }
 
         string file1 = Path.GetFullPath(args[0]);
-        if (!File.Exists(file1))
+        if (!File.Exists(file1)) // Check if the file exists
         {
             Console.WriteLine($"Error:  The file '{file1}' does not exist");
             WriteUsageStatement();
@@ -371,7 +455,7 @@ class Program
         }
 
         string file2 = Path.GetFullPath(args[1]);
-        if (!File.Exists(file2))
+        if (!File.Exists(file2)) // Check if the file exists
         {
             Console.WriteLine($"Error:  The file '{file2}' does not exist");
             WriteUsageStatement();
@@ -407,11 +491,11 @@ class Program
                     break;
                 case "-c":
                     if (!double.TryParse(args[++i], out cutoff_high) ||
-                        cutoff_high > 100 || cutoff_high < 0)
+                        cutoff_high > 100 || cutoff_high < 0) // Check if the cutoff frequency is valid
                     {
                         Console.WriteLine($"{cutoff_high}");
                         Console.WriteLine($"Error:  '{args[i]}' is not a valid " +
-                                          $"cutoff frequency");
+                                        $"cutoff frequency");
                         WriteUsageStatement();
                         Console.WriteLine();
                         return;
@@ -419,11 +503,11 @@ class Program
                     break;
                 case "-f":
                     if (!double.TryParse(args[++i], out cutoff_low) ||
-                        cutoff_low > 100 || cutoff_low < 0)
+                        cutoff_low > 100 || cutoff_low < 0) // Check if the cutoff frequency is valid
                     {
                         Console.WriteLine($"{cutoff_high}");
                         Console.WriteLine($"Error:  '{args[i]}' is not a valid " +
-                                          $"cutoff frequency");
+                                        $"cutoff frequency");
                         WriteUsageStatement();
                         Console.WriteLine();
                         return;
@@ -475,7 +559,12 @@ class Program
         Console.WriteLine();
     }
 
-    // Calculates the variation score between two documents
+
+    /// <summary>
+    /// Calculates the variation score between two documents
+    /// </summary>
+    /// <param name="doc1">The first document</param>
+    /// <param name="doc2">The second document</param>
     static double ScoreDocuments(SymbolTable<string, Counter> doc1,
                                  SymbolTable<string, Counter> doc2)
     {

@@ -4,8 +4,15 @@ using System.Collections.Generic;
 
 namespace MazeSolver
 {
+    /// <summary>
+    /// The main program class.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// The entry point of the program.
+        /// </summary>
+        /// <param name="args">The command-line arguments.</param>
         static void Main(string[] args)
         {
             // Get the agent... from a library file
@@ -60,7 +67,7 @@ namespace MazeSolver
                 maze.DrawMaze(0, 2);
                 maze.PlayMaze(agent);
             }
-            catch(InvalidOperationException ioe)
+            catch (InvalidOperationException ioe)
             {
                 Console.WriteLine(ioe.Message);
             }
