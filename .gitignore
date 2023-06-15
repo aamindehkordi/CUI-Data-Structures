@@ -1,3 +1,23 @@
 .DS_Store
 .idea
 .vscode
+*.zip
+
+# Build output
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Other
+*.log
+*.userprefs
