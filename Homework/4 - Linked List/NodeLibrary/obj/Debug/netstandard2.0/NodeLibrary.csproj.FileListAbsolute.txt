@@ -1,8 +1,0 @@
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\bin\Debug\netstandard2.0\NodeLibrary.deps.json
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\bin\Debug\netstandard2.0\NodeLibrary.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\bin\Debug\netstandard2.0\NodeLibrary.pdb
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\obj\Debug\netstandard2.0\NodeLibrary.csprojAssemblyReference.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\obj\Debug\netstandard2.0\NodeLibrary.AssemblyInfoInputs.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\obj\Debug\netstandard2.0\NodeLibrary.AssemblyInfo.cs
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\obj\Debug\netstandard2.0\NodeLibrary.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\4 - Linked List\NodeLibrary\obj\Debug\netstandard2.0\NodeLibrary.pdb

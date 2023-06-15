@@ -1,9 +1,0 @@
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\bin\Debug\netstandard2.0\GraphClass.deps.json
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\bin\Debug\netstandard2.0\GraphClass.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\bin\Debug\netstandard2.0\GraphClass.pdb
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\obj\Debug\netstandard2.0\GraphClass.csprojAssemblyReference.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\obj\Debug\netstandard2.0\GraphClass.csproj.CoreCompileInputs.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\obj\Debug\netstandard2.0\GraphClass.AssemblyInfoInputs.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\obj\Debug\netstandard2.0\GraphClass.AssemblyInfo.cs
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\obj\Debug\netstandard2.0\GraphClass.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\6 - Graph Practice\homework19\GraphClass\obj\Debug\netstandard2.0\GraphClass.pdb
