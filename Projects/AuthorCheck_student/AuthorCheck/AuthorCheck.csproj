@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>authorCheck</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
+  <ItemGroup>
+    <Compile Remove="Sort.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SymbolTableLibrary\SymbolTableLibrary.csproj" />
+    <Content Include="Program.cs" />
+  </ItemGroup>
+</Project>

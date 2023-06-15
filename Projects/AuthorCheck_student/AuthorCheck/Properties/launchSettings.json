@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AuthorCheck": {
+      "commandName": "Project",
+      "commandLineArgs": "drseuss.txt shakespeare_all.txt -s"
+    }
+  }
+}

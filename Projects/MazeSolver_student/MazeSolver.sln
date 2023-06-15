@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver", "MazeSolver\MazeSolver.csproj", "{1F2E8519-DD38-4C6C-9C37-FBE01729277A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountVonCount", "CountVonCount\CountVonCount.csproj", "{F62F5B05-0A04-4469-A621-68B94D1180E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeAgent", "MazeAgent\MazeAgent.csproj", "{B6333EEE-AE20-4C69-8F11-F5EBF0AAD26F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lefty", "Lefty\Lefty.csproj", "{A97590AB-E2BF-496D-B55B-63F54658F5DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeAgentLoader", "MazeAgentLoader\MazeAgentLoader.csproj", "{B6A88AB3-EA70-42D8-A8E0-EFCFA6183B1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeEngine", "MazeEngine\MazeEngine.csproj", "{564B6A7A-F302-4508-92EE-93EA74AFFB30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Franc", "Franc\Franc.csproj", "{D78DB581-A68C-4ED6-B390-5FB6F8473D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F2E8519-DD38-4C6C-9C37-FBE01729277A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2E8519-DD38-4C6C-9C37-FBE01729277A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2E8519-DD38-4C6C-9C37-FBE01729277A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2E8519-DD38-4C6C-9C37-FBE01729277A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62F5B05-0A04-4469-A621-68B94D1180E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62F5B05-0A04-4469-A621-68B94D1180E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62F5B05-0A04-4469-A621-68B94D1180E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62F5B05-0A04-4469-A621-68B94D1180E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6333EEE-AE20-4C69-8F11-F5EBF0AAD26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6333EEE-AE20-4C69-8F11-F5EBF0AAD26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6333EEE-AE20-4C69-8F11-F5EBF0AAD26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6333EEE-AE20-4C69-8F11-F5EBF0AAD26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97590AB-E2BF-496D-B55B-63F54658F5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97590AB-E2BF-496D-B55B-63F54658F5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97590AB-E2BF-496D-B55B-63F54658F5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97590AB-E2BF-496D-B55B-63F54658F5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A88AB3-EA70-42D8-A8E0-EFCFA6183B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A88AB3-EA70-42D8-A8E0-EFCFA6183B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A88AB3-EA70-42D8-A8E0-EFCFA6183B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A88AB3-EA70-42D8-A8E0-EFCFA6183B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564B6A7A-F302-4508-92EE-93EA74AFFB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564B6A7A-F302-4508-92EE-93EA74AFFB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564B6A7A-F302-4508-92EE-93EA74AFFB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564B6A7A-F302-4508-92EE-93EA74AFFB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78DB581-A68C-4ED6-B390-5FB6F8473D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78DB581-A68C-4ED6-B390-5FB6F8473D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78DB581-A68C-4ED6-B390-5FB6F8473D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78DB581-A68C-4ED6-B390-5FB6F8473D99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CA11274-2984-4792-82B9-9BF3AC3EAD30}
+	EndGlobalSection
+EndGlobal
