@@ -1,9 +1,0 @@
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\bin\Debug\Circle.exe.config
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\bin\Debug\Circle.exe
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\bin\Debug\Circle.pdb
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\bin\Debug\CircleLibrary.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\bin\Debug\CircleLibrary.pdb
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\obj\Debug\Program.csprojAssemblyReference.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\obj\Debug\Program.csproj.CopyComplete
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\obj\Debug\Circle.exe
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\0\Circle\obj\Debug\Circle.pdb

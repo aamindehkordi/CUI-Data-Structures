@@ -1,8 +1,0 @@
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\bin\Debug\netstandard2.0\CounterClass.deps.json
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\bin\Debug\netstandard2.0\CounterClass.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\bin\Debug\netstandard2.0\CounterClass.pdb
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\CounterClass.csprojAssemblyReference.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\CounterClass.AssemblyInfoInputs.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\CounterClass.AssemblyInfo.cs
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\CounterClass.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\CounterClass.pdb

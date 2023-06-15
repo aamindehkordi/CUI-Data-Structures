@@ -1,7 +1,0 @@
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\bin\Debug\netstandard2.0\Counter.deps.json
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\bin\Debug\netstandard2.0\Counter.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\bin\Debug\netstandard2.0\Counter.pdb
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\Counter.AssemblyInfoInputs.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\Counter.AssemblyInfo.cs
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\Counter.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\1\CounterClass\obj\Debug\netstandard2.0\Counter.pdb

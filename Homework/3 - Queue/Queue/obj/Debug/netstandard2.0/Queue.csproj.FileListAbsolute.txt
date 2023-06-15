@@ -1,8 +1,0 @@
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\bin\Debug\netstandard2.0\Queue.deps.json
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\bin\Debug\netstandard2.0\Queue.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\bin\Debug\netstandard2.0\Queue.pdb
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\obj\Debug\netstandard2.0\Queue.csprojAssemblyReference.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\obj\Debug\netstandard2.0\Queue.AssemblyInfoInputs.cache
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\obj\Debug\netstandard2.0\Queue.AssemblyInfo.cs
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\obj\Debug\netstandard2.0\Queue.dll
-C:\Users\aamin\OneDrive\Desktop\Other\Coding\Data Structures\Homework\3\Queue\obj\Debug\netstandard2.0\Queue.pdb
