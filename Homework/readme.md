@@ -52,9 +52,13 @@ This subdirectory contains a `Program.cs` file which demonstrates the usage of t
 
 This homework assignment focuses on the implementation and usage of a linked list data structure. The main components of this assignment are:
 
-### - Linked List: This is a simple implementation of a singly linked list. The linked list has methods for adding elements to the beginning and end of the list, removing elements from the beginning and end of the list, and accessing elements at a specific index. It also includes methods for inserting elements at a specific index and removing elements at a specific index
+### - Linked List
 
-### - Program: This is the main driver program that uses the linked list. It reads a text file, converts the text to lowercase, and splits the text into words. It then counts the total number of words and the frequency of each word using the linked list
+This is a simple implementation of a singly linked list. The linked list has methods for adding elements to the beginning and end of the list, removing elements from the beginning and end of the list, and accessing elements at a specific index. It also includes methods for inserting elements at a specific index and removing elements at a specific index
+
+### - Program
+
+This is the main driver program that uses the linked list. It reads a text file, converts the text to lowercase, and splits the text into words. It then counts the total number of words and the frequency of each word using the linked list
 
 ## [Homework 5 - ListSymbolTable](https://github.com/aamindehkordi/CUI-Data-Structures/tree/main/Homework/5%20-%20ListSymbolTable)
 
