@@ -1,7 +1,6 @@
-# [Homework 5 - ListSymbolTable](https://github.com/aamindehkordi/CUI-Data-Structures/tree/main/Homework/5%20-%20ListSymbolTable)
+# Symbol Table Driver
 
-This directory contains a subdirectory named 'ListSymbolTable' which focuses on the implementation of a symbol table using a list. A symbol table is a data structure used in compilers to hold information about source-program constructs. The information is entered in the table by the compiler's lexical analyzer, and the information is used by the analysis and synthesis parts of a compiler.
-
+This directory essentially combines the list and tree symbol tables from the homework assignments.
 ## ListSymbolTable
 
 This subdirectory contains a 'SymbolTableDriver' subdirectory.
